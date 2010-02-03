@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<module>
+		<enabled>true</enabled>
+		<visible>false</visible>
+		<name>adwords</name>
+		<version>2.0.0</version>
+		<icon>currency_dollar</icon>
+		<usetopic>false</usetopic>
+	</module>
+</config>

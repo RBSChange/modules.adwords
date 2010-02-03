@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+	<block type="modules_adwords_conversion" icon="currency_euro" label="&amp;modules.adwords.bo.general.block.Conversion;">
+		<parameters>
+			<parameter name="convlibelle" type="String" min-occurs="1" />
+			<parameter name="convid" type="String" min-occurs="1" />
+			<parameter name="convformat" type="Integer" min-occurs="1" />
+			<parameter name="convcolor" type="String" min-occurs="1" />
+			<parameter name="convcode" type="String" min-occurs="1" />
+			<parameter name="convvalue" type="String" />
+			<parameter name="convtype" type="String" min-occurs="1" list-id="modules_adwords/types" />
+		</parameters>
+	</block>
+</blocks>

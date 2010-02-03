@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behaviour>
+	<event type="drop" target="modules_generic_folder modules_generic_rootfolder" 
+		flavour="listitem/component" source="modules_generic_folder" actions="move"/>
+		
+	<event type="select contextmenu" target="modules_generic_rootfolder modules_generic_folder"
+		actions="openOrderChildren editPermissions" />
+
+	<datasource module="adwords" components="modules_generic/rootfolder,modules_generic/folder,modules_generic/systemfolder" />
+
+	<columns>
+		<column ref="label" flex="5" label="Module-name" primary="true" properties="type" />
+	</columns>
+
+</behaviour>

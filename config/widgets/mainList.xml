@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behaviour>
+	<!--
+	If you want to remove default actions, just add a '-' (dash)
+		before the name of the actions to remove. Note that the dash
+		must be stuck to the actions name, without space.
+		Ex: "-delete" and not "- delete"
+	-->
+	<!-- Example of event
+	<event type="select contextmenu"
+		target="modules_generic_rootfolder modules_generic_folder"
+		actions="createUsers" />
+	-->
+	<datasource module="adwords" components=""/>	
+	<columns>
+		<column ref="label" flex="7" label="Label" properties="type" />
+	</columns>
+</behaviour>

@@ -1,0 +1,20 @@
+<p tal:replace="php: '<!-- Google Code for ' . params['label'] . ' Conversion Page -->'"/>
+<script language="JavaScript" type="text/javascript">
+var google_conversion_id = ${params/id};
+var google_conversion_language = "${params/lang}";
+var google_conversion_format = "${params/format}";
+var google_conversion_color = "${params/color}";
+<p tal:condition="params/value" tal:omit-tag="">
+var google_conversion_value = "${params/value}";
+</p>
+var google_conversion_label = "${params/code}";
+</script>
+<script language="JavaScript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<p tal:define="global val ''" tal:omit-tag=""/>
+<p tal:condition="params/value" tal:omit-tag="">
+	<p tal:define="global val php: 'value=' . params['value'] . '&'" tal:omit-tag=""/>
+</p>
+<img height="1" width="1" border="0" src="http://www.googleadservices.com/pagead/conversion/${params/id}/?${val}label=${params/code}&amp;guid=ON&amp;script=0"/>
+</noscript>
