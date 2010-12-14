@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.adwords.bo.blocks.conversion" lcid="fr_FR">
+  <key id="convlibelle">nom de la conversion</key>
+  <key id="convid">ID de la conversion</key>
+  <key id="convformat">format du marqueur</key>
+  <key id="convcolor">couleur de fond du marqueur</key>
+  <key id="convcode">label de la conversion</key>
+  <key id="convvalue">valeur de la conversion</key>
+  <key id="convtype">affichage du marqueur pour</key>
+</i18n>
